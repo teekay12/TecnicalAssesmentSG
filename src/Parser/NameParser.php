@@ -9,10 +9,6 @@ class NameParser
     public function parse(array $part): array
     { 
         $person = new Person();
-        /*$person["title"] = "null";
-        $person["initial"] = "null";
-        $person["first_name"] = "null";
-        $person["last_name"] = "null";*/
 
         $person->setTitle($part[0]);
 

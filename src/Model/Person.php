@@ -8,7 +8,7 @@ class Person{
     
     protected array $person = [];
 
-    public function __construct(public string $title = "", public string $initial = "", public string $first_name = "", public string $last_name = "")
+    public function __construct(public ?string $title = null, public ?string $initial = null, public ?string $first_name = null, public ?string $last_name = null)
     {
         $this->title = $title;
         $this->initial = $initial;
