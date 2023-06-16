@@ -1,0 +1,17 @@
+{
+    "name": "kareem/ta",
+    "description": "Technical Assesment",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Kareem\\Ta\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Taofik Kareem",
+            "email": "kareemtaofik22@gmail.com"
+        }
+    ],
+    "require": {}
+}
