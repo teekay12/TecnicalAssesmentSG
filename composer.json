@@ -13,5 +13,12 @@
             "email": "kareemtaofik22@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "phpunit/phpunit": "^10.2"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Unit\\": "tests/"
+        }
+    }
 }
